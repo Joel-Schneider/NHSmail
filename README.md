@@ -4,7 +4,8 @@ SImply automatically login to your NHS mail with one click.
 Uses an incognito/temporary profile chromium window
 Makes it work like a mini "NHSmail" app
 
-==WARNING==
+__WARNING__
+
 Only use on a non-shared, encrypted, password-protected 
 device: your username and password will be stored in the 
 nhs.net.autologin.html file!!
