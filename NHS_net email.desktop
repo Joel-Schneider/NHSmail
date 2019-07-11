@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NHS.net email
+Comment=Lauch nhs.net email with one click login
+Exec=./nhs.net.sh
+Icon=emblem-mail
+Path=
+Terminal=false
+StartupNotify=false
