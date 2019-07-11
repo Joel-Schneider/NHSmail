@@ -1,0 +1,16 @@
+<body onload="javascript:logmein();">
+<form method="post" id="loginForm" action="https://fs.nhs.net/adfs/ls/?wa=wsignin1.0&wtrealm=https%3a%2f%2femail.nhs.net%2fowa%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252fowa%252f" >
+                    <input name="UserName"
+                        value="_USERNAME_@nhs.net" />
+                    <input name="Password" type="password"
+                        value="_PASSWORD_" />
+                    <input type="checkbox" name="Kmsi" value="true" />
+                    <input id="submitButton" type="submit">Sign in</input>
+            <input name="AuthMethod" value="FormsAuthentication"/>
+        </form>
+        <script type="text/javascript">
+	function logmein() {
+		document.getElementById('submitButton').click();
+	}
+        </script>
+</body>
